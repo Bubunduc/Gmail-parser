@@ -88,8 +88,8 @@ class Email_parser():
     def session_for_requests(self):
         data = {
             '_token': '-empty-',
-            'email': 'bubunduc@gmail.com',
-            'password': 'm5:f7XH7ikm-jzN',
+            'email': '',
+            'password': '',
             'button': ''
         }
         with requests.Session() as session:
