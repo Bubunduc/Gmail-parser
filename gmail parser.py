@@ -113,7 +113,7 @@ class Email_parser():
         return session
     async def call_url(self,url):
 
-        async with aiohttp.ClientSession(auth= aiohttp.BasicAuth('bubunduc@gmail.com','m5:f7XH7ikm-jzN')) as session:
+        async with aiohttp.ClientSession(auth= aiohttp.BasicAuth('','')) as session: #Your email and password
 
             async with session.get(url) as response:
                 data = await response.text()
